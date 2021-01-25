@@ -4,8 +4,8 @@ const pumpkinMinionToggle = document.getElementById("pumpkin-minion-toggle")
 const pumpkinMinionSchema = document.getElementById("pumpkin-minion-schema")
 
 defaultToggle.addEventListener("click", () => {
-  defaultSchema.style.display = "block"
   pumpkinMinionSchema.style.display = "none"
+  defaultSchema.style.display = "block"
 })
 
 pumpkinMinionToggle.addEventListener("click", () => {
