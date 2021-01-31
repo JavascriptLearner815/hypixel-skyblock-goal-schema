@@ -21,3 +21,13 @@ nav a {
 .nowrap {
   white-space: nowrap;
 }
+a {
+  color: darkslateblue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: darkorchid;
+}
