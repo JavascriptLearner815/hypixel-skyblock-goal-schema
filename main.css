@@ -7,6 +7,10 @@ body {
   color: #262626;
   font-size: 80%;
 }
+img {
+  width: 80%;
+  height: 80%;
+}
 aside {
   padding: 0;
   margin: 1px;
