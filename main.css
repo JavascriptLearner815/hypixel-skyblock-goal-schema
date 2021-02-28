@@ -8,8 +8,8 @@ body {
   font-size: 80%;
 }
 img {
-  width: calc(auto * 80);
-  height: calc(auto * 80);
+  width: calc(auto * 0.80);
+  height: calc(auto * 0.80);
 }
 aside {
   padding: 0;
