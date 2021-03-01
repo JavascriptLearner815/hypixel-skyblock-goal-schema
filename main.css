@@ -57,7 +57,7 @@ details > summary::after {
   background: #cc3333;
   border-color: #cc3333;
   border-radius: 15px;
-  content: "+";
+  content: "?";
   color: #666;
   float: left;
   font-size: 1em;
@@ -76,5 +76,5 @@ details > div {
   box-shadow: 4px 4px 3px black;
 }
 details[open] > summary::after {
-  content: "-";
+  content: "!";
 }
