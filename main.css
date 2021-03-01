@@ -4,7 +4,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: darkgray;
-  color: #262626;
+  color: #333;
   font-size: 80%;
 }
 img {
@@ -35,4 +35,46 @@ a:hover {
 }
 a:active {
   color: darkorchid;
+}
+details {
+  width: 620px;
+  box-shadow: 3px 3px 4px black;
+}
+details > summary {
+  padding: 2px 6px;
+  width: inherit;
+  background: #999;
+  border: none;
+  cursor: pointer;
+  list-style: none;
+  outline: none;
+  font-size: 1.15em;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary::after {
+  background: #cc3333;
+  border-color: #cc3333;
+  border-radius: 15px;
+  content: "+";
+  color: #666;
+  float: left;
+  font-size: 1em;
+  font-weight: bold;
+  margin: -2px 10px 0 0;
+  padding: 1px 0 3px 0;
+  text-align: center;
+  width: 30px;
+}
+details > div {
+  border-radius: 0 0 10px 10px;
+  width: inherit;
+  background: #999;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 4px 4px 3px black;
+}
+details[open] > summary::after {
+  content: "-";
 }
