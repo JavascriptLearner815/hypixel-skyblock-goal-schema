@@ -30,6 +30,10 @@ if (invertSave !== null && invertSave !== undefined) {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
+    for (const element of document.querySelectorAll("div")) {
+      element.style.backgroundColor = "#333"
+      element.style.color = "darkgray"
+    }
   } else {
     document.body.style.backgroundColor = "darkgray"
     document.body.style.color = "#333"
@@ -38,6 +42,10 @@ if (invertSave !== null && invertSave !== undefined) {
       element.style.color = "#333"
     }
     for (const element of document.querySelectorAll("summary")) {
+      element.style.backgroundColor = "darkgray"
+      element.style.color = "#333"
+    }
+    for (const element of document.querySelectorAll("div")) {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
     }
@@ -80,6 +88,10 @@ savePreferences.addEventListener("click", () => {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
+    for (const element of document.querySelectorAll("div")) {
+      element.style.backgroundColor = "#333"
+      element.style.color = "darkgray"
+    }
   } else {
     document.body.style.backgroundColor = "darkgray"
     document.body.style.color = "#333"
@@ -88,6 +100,10 @@ savePreferences.addEventListener("click", () => {
       element.style.color = "#333"
     }
     for (const element of document.querySelectorAll("summary")) {
+      element.style.backgroundColor = "darkgray"
+      element.style.color = "#333"
+    }
+    for (const element of document.querySelectorAll("div")) {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
     }
