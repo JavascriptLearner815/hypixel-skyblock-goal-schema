@@ -26,7 +26,7 @@ if (invertSave !== null && invertSave !== undefined) {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
-    for (const element2 of document.querSelectorAll("summary")) {
+    for (const element2 of document.querySelectorAll("summary")) {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
@@ -37,7 +37,7 @@ if (invertSave !== null && invertSave !== undefined) {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
     }
-    for (const element2 of document.querSelectorAll("summary")) {
+    for (const element2 of document.querySelectorAll("summary")) {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
     }
@@ -76,7 +76,7 @@ savePreferences.addEventListener("click", () => {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
-    for (const element2 of document.querSelectorAll("summary")) {
+    for (const element2 of document.querySelectorAll("summary")) {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
@@ -87,7 +87,7 @@ savePreferences.addEventListener("click", () => {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
     }
-    for (const element2 of document.querSelectorAll("summary")) {
+    for (const element2 of document.querySelectorAll("summary")) {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
     }
