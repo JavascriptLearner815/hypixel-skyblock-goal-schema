@@ -65,4 +65,4 @@ savePreferences.addEventListener("click", () => {
   localStorage.setItem(invertName, invert.checked)
   alert("Preferences have been saved!")
   console.log("Preferences were fully loaded, applied, and saved.")
-})
+}, false)
