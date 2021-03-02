@@ -29,19 +29,32 @@
             <li aria-label="On the opening day of March in 2021: Changed the website colors to be websafe."><p><dfn>3/1/2021:</dfn> Changed the website colors to be websafe.</p></li>
             <li aria-label="On the opening day of March in 2021: Added an Updates details section and added some styling for the details element that is added. Not worthy of a version number as it does NOT majorly tweak or add a goal schema."><p><dfn>3/1/2021:</dfn> Added an Updates details section and added some styling for the details element that is added. Not worthy of a version number as it does <em>not</em> majorly tweak or add a goal schema.</p></li>
             <li aria-label="On the opening day of March in 2021: Tweaked the Updates details section."><p><dfn>3/1/2021:</dfn> Tweaked the Updates details section.</p></li>
-            <li aria-label="On the opening day of March in 2021: Added a Jotter textarea that saves to your browser window's localStorage API once you press the \"Jot!\" button with script."><p><dfn>3/1/2021:</dfn> Added a Jotter textarea that saves to your browser window's <code>localStorage</code> API once you press the "Jot!" button with script.</p></li>
+            <li aria-label="On the opening day of March in 2021: Added a Jotter textarea that saves to your browser window's localStorage API once you press the Jot! button with script."><p><dfn>3/1/2021:</dfn> Added a Jotter textarea that saves to your browser window's <code>localStorage</code> API once you press the "Jot!" button with script.</p></li>
             <li aria-label="On the opening day of March in 2021: Added aria-labels to most elements to enhance assistive tech (just kidding, I'm just tryna flaunt myself) and refactored the website to utilize its aforementioned-here terminology."><p><dfn>3/1/2021:</dfn> Added <code>aria-label</code>s to most elements to enhance assistive tech (just kidding, I'm just tryna flaunt myself) and refactored the website to utilize its aforementioned-here terminology.</p></li>
+            <!-- <li aria-label="On the opening day of March in 2021: Added a Preferences fieldset that saves to your browser window's localStorage API once you press the Prefer! button and applies those changes with script."<p><dfn>3/1/2021:</dfn> On the opening day of March in 2021: Added a Preferences fieldset that saves to your browser window's <code>localStorage</code> API once you press the "Prefer!" button and applies those changes with script.</p></li> -->
           </ol>
         </div>
       </details>
       <hr aria-label="Now going to the Jotter textarea!">
-      <label for="jotter" aria-label="Jotter">Jotter</label>
-      <br aria-label="Line Break">
-      <textarea id="jotter" name="jotter" placeholder="Jotter" aria-label="Jotter Textarea (Jot Here!)"></textarea>
+      <label for="jotter" aria-label="Jotter">
+        <span aria-label="Jotter">Jotter</span>
+        <br aria-label="Line Break">
+        <textarea id="jotter" name="jotter" placeholder="Jotter" aria-label="Jotter Textarea (Jot Here!)"></textarea>
+      </label>
       <br aria-label="Line Break">
       <button id="jot" name="jot" aria-label="Save Jotter Button">Jot!</button>
       <wbr aria-label="Optional Line Break">
       <p aria-label="Please note: Jotter's data is saved to your browser window's localStorage API once you press the Jot! button. Changing browsers or blocking your browser window's localStorage API may ruin this behavior."><i><dfn>Jotter</dfn>'s data is saved to your browser window's <code>localStorage</code> API once you press the "Jot!" button. Changing browsers or blocking your browser window's <code>localStorage</code> API may ruin this behavior.</i></p>
+      <hr aria-label="Now going to the personalized preferences checkboxes!">
+      <fieldset>
+        <legend>Preferences</legend>
+        <label for="invert" aria-label="Invert Background and Text Colors">
+          <span aria-label="Invert Background and Text Colors">Invert Background and Text Colors</span>
+          <br aria-label="Line Break">
+          <input id="invert" name="invert" type="checkbox">
+        </label>
+        <button id="save-preferences" name="save-preferences" aria-label="Save Personalized Preferences Button">Prefer!</button>
+      </fieldset>
     </header>
     <hr aria-label="Now going to the goal schemas main!">
     <main aria-label="Main">
