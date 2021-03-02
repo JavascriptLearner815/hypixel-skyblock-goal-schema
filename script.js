@@ -76,7 +76,7 @@ savePreferences.addEventListener("click", () => {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
-    for (const element2 of document.querySelectorAll("summary")) {
+    for (const element of document.querySelectorAll("summary")) {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
@@ -87,7 +87,7 @@ savePreferences.addEventListener("click", () => {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
     }
-    for (const element2 of document.querySelectorAll("summary")) {
+    for (const element of document.querySelectorAll("summary")) {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
     }
