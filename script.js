@@ -4,12 +4,28 @@ const pumpkinMinionToggle = document.getElementById("pumpkin-minion-toggle")
 const pumpkinMinionSchema = document.getElementById("pumpkin-minion-schema")
 const gettingStartedToggle = document.getElementById("getting-started-toggle")
 const gettingStartedSchema = document.getElementById("getting-started-schema")
+const jotterName = "jotter"
+const invertName = "invert"
 const jotterTextarea = document.getElementById("jotter")
 const jotButton = document.getElementById("jot")
-const jotterSave = localStorage.getItem("jotter")
+const jotterSave = localStorage.getItem(jotterName)
+const invert = document.getElementById("invert")
+const invertSave = localStorage.getItem(invertName)
+const savePreferences = document.getElementById("save-preferences")
 
 if (jotterSave) {
   jotterTextarea.value = jotterSave
+}
+
+if (invertSave) {
+  invert.checked = invertSave
+  if (invert.checked) {
+    document.body.style.backgroundColor = "#333"
+    document.body.style.color = "darkgray"
+  } else {
+    document.body.style.backgroundColor = "darkgray"
+    document.body.style.color = "#333"
+  }
 }
 
 defaultToggle.addEventListener("click", () => {
@@ -31,7 +47,22 @@ gettingStartedToggle.addEventListener("click", () => {
 })
 
 jotButton.addEventListener("click", () => {
-  localStorage.setItem("jotter", jotterTextarea.value)
+  localStorage.setItem(jotterName, jotterTextarea.value)
   alert("Jotter has been jotted!")
   console.log("Jotter was successfully jotted.")
+}, false)
+
+savePreferences.addEventListener("click", () => {
+  if (invert.checked) {
+    document.body.style.backgroundColor = "#333"
+    document.body.style.color = "darkgray"
+  } else {
+    document.body.style.backgroundColor = "darkgray"
+    document.body.style.color = "#333"
+  }
+  alert("Preferences have been applied!")
+  console.log("Preferences were fully loaded and applied.")
+  localStorage.setItem(invertName, invert.checked)
+  alert("Preferences have been saved!")
+  console.log("Preferences were fully loaded, applied, and saved.")
 }, false)
