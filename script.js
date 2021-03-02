@@ -17,7 +17,7 @@ if (jotterSave) {
   jotterTextarea.value = jotterSave
 }
 
-if (invertSave) {
+if (invertSave != null) {
   invert.checked = invertSave
   if (invert.checked) {
     document.body.style.backgroundColor = "#333"
