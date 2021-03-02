@@ -72,9 +72,25 @@ savePreferences.addEventListener("click", () => {
   if (invert.checked) {
     document.body.style.backgroundColor = "#333"
     document.body.style.color = "darkgray"
+    for (const element of document.querySelectorAll("details")) {
+      element.style.backgroundColor = "#333"
+      element.style.color = "darkgray"
+    }
+    for (const element2 of document.querSelectorAll("summary")) {
+      element.style.backgroundColor = "#333"
+      element.style.color = "darkgray"
+    }
   } else {
     document.body.style.backgroundColor = "darkgray"
     document.body.style.color = "#333"
+    for (const element of document.querySelectorAll("details")) {
+      element.style.backgroundColor = "darkgray"
+      element.style.color = "#333"
+    }
+    for (const element2 of document.querSelectorAll("summary")) {
+      element.style.backgroundColor = "darkgray"
+      element.style.color = "#333"
+    }
   }
   alert("Preferences have been applied!")
   console.log("Preferences were fully loaded and applied.")
