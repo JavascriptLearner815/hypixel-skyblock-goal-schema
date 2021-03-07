@@ -2,7 +2,7 @@ export default class NumberAsPlacement {
   constructor(number) {
     /**
      * see comments in ../../../../../../update.js (Update), ../../../../update-aria-label.js (UpdateAriaLabel), and ../../parsed-day.js class-files
-     * helper classes: none
+     * helper classes: NumberAsPlacement (this)
     **/
     this.number = number
     this.getLastDigit = (str, num) => {
