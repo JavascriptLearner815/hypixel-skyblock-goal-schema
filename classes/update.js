@@ -15,9 +15,9 @@ export default class Update {
     this.year = year
     this.content = content
     const newUpdate = document.createElement("li")
-    const ariaLabel = new UpdateAriaLabel(month, day, year, content)
+    const ariaLabel = new UpdateAriaLabel(this.month, this.day, this.year, this.content)
     newUpdate.setAttribute("aria-label", ariaLabel.parsed)
-    const innerHTML = new UpdateInnerHTML(month, day, year, content)
+    const innerHTML = new UpdateInnerHTML(this.month, this.day, this.year, this.content)
     newUpdate.innerHTML = innerHTML.parsed
     updateListID.appendChild(newUpdate)
     this.element = newUpdate
