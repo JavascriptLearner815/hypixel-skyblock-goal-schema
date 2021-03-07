@@ -13,7 +13,7 @@ export default class UpdateAriaLabel {
     this.content = content
     this.parsedYear = this.year
     this.parsedContent = this.content
-    const parsedDay = new ParsedDay(this.day)
+    const parsedDay = new ParsedDay(this.day, this.month, this.year)
     this.parsedDay = parsedDay.parsed
     const parsedMonth = new ParsedMonth(this.month)
     this.parsedMonth = parsedMonth.parsed
