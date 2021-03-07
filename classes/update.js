@@ -9,6 +9,7 @@ export default class Update {
      * content is the update text
      * updateListID is the ID of the ol/ul to add the update notice to
     **/
+    this.updateListID = updateListID
     this.month = month
     this.day = day
     this.year = year
@@ -19,5 +20,6 @@ export default class Update {
     const innerHTML = new UpdateInnerHTML(month, day, year, content)
     newUpdate.innerHTML = innerHTML.parsed
     updateListID.appendChild(newUpdate)
+    this.element = newUpdate
   }
 }
