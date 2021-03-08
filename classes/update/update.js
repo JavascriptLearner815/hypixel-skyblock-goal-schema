@@ -19,7 +19,7 @@ export default class Update {
     newUpdate.setAttribute("aria-label", ariaLabel.parsed)
     const innerHTML = new UpdateInnerHTML(this.month, this.day, this.year, this.content)
     newUpdate.innerHTML = innerHTML.parsed
-    updateListID.appendChild(newUpdate)
+    document.getElementById(updateListID).appendChild(newUpdate)
     this.element = newUpdate
   }
 }
