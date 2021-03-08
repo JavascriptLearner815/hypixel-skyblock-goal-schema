@@ -136,5 +136,6 @@ const updates = [
   new Update(updatesID, 3, 1, 2021, "Added <code>aria-label</code>s to most elements to enhance assistive tech (just kidding, I'm just tryna flaunt myself) and refactored the website to utilize its aforementioned-here terminology."),
   new Update(updatesID, 3, 1, 2021, "Added a Preferences fieldset that saves to your browser window's <code>localStorage</code> API once you press the \"Prefer!\" button and applies those changes with script."),
   new Update(updatesID, 3, 2, 2021, "Added an Issues link so other developers and constructive critics can help the website."),
-  new Update(updatesID, 3, 7, 2021, "Changed the Updates details section to use classes in order to add its updates.")
+  new Update(updatesID, 3, 7, 2021, "Changed the Updates details section to use classes in order to add its updates."),
+  new Update(updatesID, 3, 7, 2021, "Added a Pull Requests link so other developers and constructive critics can <em>really</em> help the website.")
 ];
