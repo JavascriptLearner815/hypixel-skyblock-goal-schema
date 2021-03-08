@@ -1,5 +1,5 @@
-import UpdateAriaLabel from "./update-aria-label.js"
-import UpdateInnerHTML from "./update-inner-html.js"
+import UpdateAriaLabel from "./helpers/update-aria-label/update-aria-label.js"
+import UpdateInnerHTML from "./helpers/update-inner-html/update-inner-html.js"
 
 export default class Update {
   constructor(updateListID, month, day, year, content) {
