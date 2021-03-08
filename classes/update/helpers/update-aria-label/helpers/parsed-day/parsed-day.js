@@ -3,8 +3,8 @@ import NumberAsPlacement from "./number-as-placement.js"
 export default class ParsedDay {
   constructor(day, month, year) {
     /**
-     * see comments in ./update.js (Update) and ./update-aria-label.js (UpdateAriaLabel) class-files
-     * helper classes: ParsedDay (this), ParsedMonth (./parsed-month.js)
+     * see comments in ../../../../update.js (Update) and ../../update-aria-label.js (UpdateAriaLabel) class-files
+     * helper classes: ParsedDay (this), ParsedMonth (../parsed-month/parsed-month.js)
     **/
     this.day = day
     this.month = month
