@@ -78,3 +78,8 @@ details > div {
 details[open] > summary::after {
   content: "!";
 }
+dfn {
+  text-decoration: underline dotted;
+  font-style: normal;
+  font-weight: bolder;
+}
