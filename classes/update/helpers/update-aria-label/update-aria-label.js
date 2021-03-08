@@ -4,8 +4,8 @@ import ParsedMonth from "./parsed-month.js"
 export default class UpdateAriaLabel {
   constructor(month, day, year, content) {
     /**
-     * see comments in ./update.js (Update) class-file
-     * helper classes: UpdateAriaLabel (this), UpdateInnerHTML (./update-inner-html.js)
+     * see comments in ../../update.js (Update) class-file
+     * helper classes: UpdateAriaLabel (this), UpdateInnerHTML (../update-inner-html/update-inner-html.js)
     **/
     this.month = month
     this.day = day
