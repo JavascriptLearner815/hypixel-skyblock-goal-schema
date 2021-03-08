@@ -1,5 +1,5 @@
-import ParsedDay from "./parsed-day.js"
-import ParsedMonth from "./parsed-month.js"
+import ParsedDay from "./helpers/parsed-day/parsed-day.js"
+import ParsedMonth from "./helpers/parsed-month/parsed-month.js"
 
 export default class UpdateAriaLabel {
   constructor(month, day, year, content) {
