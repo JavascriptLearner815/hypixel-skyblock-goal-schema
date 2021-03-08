@@ -1,4 +1,4 @@
-import NumberAsPlacement from "./number-as-placement.js"
+import NumberAsPlacement from "./helpers/number-as-placement/number-as-placement.js"
 
 export default class ParsedDay {
   constructor(day, month, year) {
