@@ -27,14 +27,14 @@ nav a {
   white-space: nowrap;
 }
 a {
-  color: darkslateblue;
+  color: #0066ff;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: darkorchid;
+  color: #003366;
 }
 details {
   width: 620px;
