@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   background: darkgray;
   color: #333;
   font-size: 80%;
@@ -57,14 +57,14 @@ nav a {
   white-space: nowrap;
 }
 a {
-  color: darkslateblue;
+  color: #0066ff;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: darkorchid;
+  color: #003366;
 }
 details {
   width: 620px;
@@ -107,4 +107,9 @@ details > div {
 }
 details[open] > summary::after {
   content: "!";
+}
+dfn {
+  text-decoration: underline dotted;
+  font-style: normal;
+  font-weight: bolder;
 }
