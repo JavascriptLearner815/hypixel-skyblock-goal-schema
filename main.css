@@ -83,3 +83,6 @@ dfn {
   font-style: normal;
   font-weight: bolder;
 }
+button {
+  font-family: inherit;
+}
