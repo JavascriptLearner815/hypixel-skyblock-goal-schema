@@ -1,6 +1,11 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+:root {
+  --background: darkgray;
+  --border-size: 2px;
+  --accent: #0af;
+}
 body {
   font-family: "Roboto", sans-serif;
   background: darkgray;
@@ -20,21 +25,48 @@ nav {
   margin: 0;
   padding: 5px 0 5px 30px;
 }
+a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: var(--accent);
+  
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+a:hover::before,
+a:focus::before {
+  transform: scaleX(1);
+}
 a {
+  background: var(--background);
   color: #0066ff;
+  padding: .5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  transition: color 300ms ease-in-out;
+  z-index: 1;
   text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: white;
+}
+a:active {
+  color: #003366;
 }
 nav a {
   margin-right: 20px;
 }
 .nowrap {
   white-space: nowrap;
-}
-a:hover {
-  text-decoration: underline;
-}
-a:active {
-  color: #003366;
 }
 details {
   width: 620px;
