@@ -37,6 +37,9 @@ if (invertSave !== null && invertSave !== undefined) {
       element.style.backgroundColor = "#333"
       element.style.color = "darkgray"
     }
+    for (const element of document.querySelectorAll("a")) {
+      element.style.backgroundColor = "#333"
+    }
   } else {
     document.body.style.backgroundColor = "darkgray"
     document.body.style.color = "#333"
@@ -51,6 +54,9 @@ if (invertSave !== null && invertSave !== undefined) {
     for (const element of document.querySelectorAll("div")) {
       element.style.backgroundColor = "darkgray"
       element.style.color = "#333"
+    }
+    for (const element of document.querySelectorAll("a")) {
+      element.style.backgroundColor = "darkgray"
     }
   }
 }
