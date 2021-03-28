@@ -1,10 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
-:root {
-  --border-size: 2px;
-  --accent: #0af;
-}
 body {
   font-family: "Roboto", sans-serif;
   background: darkgray;
@@ -32,7 +28,7 @@ a::before {
   bottom: 0;
   right: 0;
   z-index: -1;
-  background: var(--accent);
+  background: #0af;
   
   transition: transform 300ms ease-in-out;
   transform: scaleX(0);
