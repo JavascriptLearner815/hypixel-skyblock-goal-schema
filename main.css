@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 :root {
-  --background: darkgray;
   --border-size: 2px;
   --accent: #0af;
 }
@@ -44,7 +43,7 @@ a:focus::before {
   transform: scaleX(1);
 }
 a {
-  background: var(--background);
+  background: darkgray;
   color: #0066ff;
   padding: .5em 1em;
   border: none;
