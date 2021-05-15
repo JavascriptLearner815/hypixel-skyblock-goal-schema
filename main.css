@@ -101,6 +101,9 @@ details > summary {
 details > summary::-webkit-details-marker {
   display: none;
 }
+details > summary::marker {
+  display: none;
+}
 details > summary::after {
   background: #cc3333;
   border-color: #cc3333;
