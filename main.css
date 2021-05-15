@@ -6,7 +6,7 @@ body {
   background: darkgray;
   color: #333;
   font-size: 80%;
-  text-shadow: 1px 1px 2px pink;
+  text-shadow: .5px .5px .95px pink;
 }
 ::-moz-selection {
   color: black;
