@@ -144,4 +144,4 @@ const updates = [
   new Update(updatesID, 3, 2, 2021, "Added an Issues link so other developers and constructive critics can help the website."),
   new Update(updatesID, 3, 7, 2021, "Changed the Updates details section to use classes in order to add its updates."),
   new Update(updatesID, 3, 7, 2021, "Added a Pull Requests link so other developers and constructive critics can <em>really</em> help the website.")
-];
+]
