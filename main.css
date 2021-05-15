@@ -98,9 +98,12 @@ details > summary {
   outline: none;
   font-size: 1.15em;
 }
+/*
+DEPRECATED:
 details > summary::-webkit-details-marker {
   display: none;
 }
+*/
 details > summary::marker {
   display: none;
 }
