@@ -8,19 +8,24 @@ body {
   font-size: 80%;
 }
 ::-moz-selection {
-  background: yellow;
+  color: black;
+  background: orchid;
 }
 ::-webkit-selection {
-  background: yellow;
+  color: black;
+  background: orchid;
 }
 ::-o-selection {
-  background: yellow;
+  color: black;
+  background: orchid;
 }
 ::-ms-selection {
-  background: yellow;
+  color: black;
+  background: orchid;
 }
 ::selection {
-  background: yellow;
+  color: black;
+  background: orchid;
 }
 img {
   width: calc(auto * 0.8);
