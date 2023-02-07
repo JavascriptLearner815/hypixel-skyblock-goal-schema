@@ -4,9 +4,8 @@
 body {
   font-family: "Roboto", sans-serif;
   background: darkgray;
-  color: #333;
+  color: #111;
   font-size: 80%;
-  text-shadow: .5px .5px .95px pink;
 }
 ::-moz-selection {
   color: black;
